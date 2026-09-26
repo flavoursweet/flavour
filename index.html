@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>王宇剑丶 — 计算机研究生 · 全栈开发者 · 内容创作者</title>
+  <meta name="description" content="王宇剑丶的个人主页：中国矿业大学（北京）计算机专业研究生，全栈开发者、独立产品与内容创作者。代表作「按时睡教」早睡搭子小程序。" />
+  <meta name="keywords" content="王宇剑, 全栈开发, Vue, TypeScript, Node.js, 按时睡教, 独立产品, 内容创作者" />
+  <meta name="author" content="王宇剑丶" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="王宇剑丶 — 计算机研究生 · 全栈开发者 · 内容创作者" />
+  <meta property="og:description" content="把技术、创意和一点沙雕精神揉在一起：写代码、做视频，也做真正有人使用的小产品。" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="theme-color" content="#FFD400" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- 背景装饰网格 -->
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+
+  <!-- 导航 -->
+  <header class="nav" id="nav">
+    <a class="nav__logo" href="#top" id="logo">王宇剑<span class="nav__dot">丶</span></a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#about">关于</a>
+      <a href="#skills">技术栈</a>
+      <a href="#product">产品</a>
+      <a href="#projects">项目</a>
+      <a href="#social">平台</a>
+    </nav>
+    <div class="nav__clock" id="clock">00:00:00</div>
+    <button class="nav__burger" id="burger" aria-label="打开菜单">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="top">
+      <div class="hero__inner">
+        <p class="hero__hello reveal">人类朋友，你好 👋</p>
+        <h1 class="hero__title reveal">
+          <span class="hero__name" id="heroName">王宇剑丶</span>
+        </h1>
+        <p class="hero__role reveal">
+          中国矿业大学（北京）<wbr>计算机专业研究生
+        </p>
+        <p class="hero__desc reveal">
+          把技术、创意和一点沙雕精神揉在一起——写代码、做视频，也做真正有人使用的小产品。
+        </p>
+        <div class="hero__actions reveal">
+          <a class="btn btn--blue" href="#product">看看我的产品</a>
+          <a class="btn btn--ghost" href="#social">找到我</a>
+        </div>
+      </div>
+      <div class="hero__badges reveal" id="badges" aria-hidden="true">
+        <span class="sticker sticker--blue">VUE</span>
+        <span class="sticker sticker--yellow">TS</span>
+        <span class="sticker sticker--blue">NODE</span>
+        <span class="sticker sticker--yellow">SLEEP</span>
+      </div>
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__track">
+          <span>全栈开发</span><i>✦</i>
+          <span>内容创作</span><i>✦</i>
+          <span>独立产品</span><i>✦</i>
+          <span>早睡教</span><i>✦</i>
+          <span>全栈开发</span><i>✦</i>
+          <span>内容创作</span><i>✦</i>
+          <span>独立产品</span><i>✦</i>
+          <span>早睡教</span><i>✦</i>
+        </div>
+      </div>
+    </section>
+
+    <!-- 关于 -->
+    <section class="section" id="about">
+      <h2 class="section__title reveal"><span class="num">01</span> 关于我</h2>
+      <div class="about reveal">
+        <div class="about__card">
+          <p>我是一名计算机专业的研究生，喜欢把<strong>技术、创意和一点沙雕精神</strong>揉在一起。</p>
+          <p>主要用 <strong>Vue、TypeScript 和 Node.js</strong> 做全栈开发，也折腾过小程序、Flutter、SSR/SEO 优化、Canvas 2D、Hono、自动化部署和数据采集。</p>
+        </div>
+        <div class="about__card about__card--blue">
+          <p>从大学开始，我就在做<strong>生活、搞笑、音乐和游戏</strong>类的视频。</p>
+          <p>现在，我更想把专业能力，变成<strong>普通人也能用上的产品和课程</strong>。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 技术栈 -->
+    <section class="section" id="skills">
+      <h2 class="section__title reveal"><span class="num">02</span> 技术栈</h2>
+      <div class="skills reveal" id="skillsGrid">
+        <div class="chip">Vue</div>
+        <div class="chip">TypeScript</div>
+        <div class="chip">Node.js</div>
+        <div class="chip">小程序</div>
+        <div class="chip">Flutter</div>
+        <div class="chip">SSR / SEO</div>
+        <div class="chip">Canvas 2D</div>
+        <div class="chip">Hono</div>
+        <div class="chip">自动化部署</div>
+        <div class="chip">数据采集</div>
+      </div>
+    </section>
+
+    <!-- 产品 -->
+    <section class="section" id="product">
+      <h2 class="section__title reveal"><span class="num">03</span> 独立产品</h2>
+      <article class="product reveal">
+        <div class="product__tag">独立产品 · 小程序</div>
+        <h3 class="product__name">按时睡教</h3>
+        <p class="product__desc">早睡搭子微信小程序——找个搭子，一起早点睡。</p>
+        <div class="product__meta">
+          <span>🌙 早睡打卡</span>
+          <span>🤝 睡眠搭子</span>
+          <span>💬 互相监督</span>
+        </div>
+      </article>
+    </section>
+
+    <!-- 项目展示 -->
+    <section class="section" id="projects">
+      <h2 class="section__title reveal"><span class="num">04</span> 项目展示</h2>
+      <div class="projects reveal" id="projectsGrid">
+        <article class="proj">
+          <div class="proj__head"><span class="proj__idx">01</span><span class="proj__icon">🛠️</span></div>
+          <h3 class="proj__title">项目占位</h3>
+          <p class="proj__desc">这里可以放你的第一个项目：一句话说明它做了什么、解决了什么问题。</p>
+          <a class="proj__link" href="#projects">查看详情 →</a>
+        </article>
+        <article class="proj proj--blue">
+          <div class="proj__head"><span class="proj__idx">02</span><span class="proj__icon">🧩</span></div>
+          <h3 class="proj__title">项目占位</h3>
+          <p class="proj__desc">这里可以放你的第二个项目：技术栈 + 亮点一句话。</p>
+          <a class="proj__link" href="#projects">查看详情 →</a>
+        </article>
+        <article class="proj">
+          <div class="proj__head"><span class="proj__idx">03</span><span class="proj__icon">🎬</span></div>
+          <h3 class="proj__title">项目占位</h3>
+          <p class="proj__desc">这里可以放你的第三个项目：或者放视频/课程方向的成果。</p>
+          <a class="proj__link" href="#projects">查看详情 →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- 内容平台 -->
+    <section class="section" id="social">
+      <h2 class="section__title reveal"><span class="num">05</span> 找到我</h2>
+      <div class="social reveal">
+        <a class="social__card" href="https://space.bilibili.com" target="_blank" rel="noopener">
+          <span class="social__icon">📺</span>
+          <span class="social__label">B 站</span>
+          <span class="social__name">小毛毛熊丶</span>
+        </a>
+        <a class="social__card social__card--blue" href="#" target="_blank" rel="noopener">
+          <span class="social__icon">✍️</span>
+          <span class="social__label">公众号</span>
+          <span class="social__name">xiaommx</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- 页脚引言 -->
+  <footer class="footer">
+    <blockquote class="footer__quote reveal">
+      “宏大的理想未必能够对抗虚无，<br>微小的选择却可以。”
+    </blockquote>
+    <p class="footer__copy">© <span id="year"></span> 王宇剑丶 · 用微小的选择，对抗虚无</p>
+  </footer>
+
+  <div class="cursor" id="cursor" aria-hidden="true"></div>
+  <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
