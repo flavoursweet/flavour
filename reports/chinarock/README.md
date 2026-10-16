@@ -1,5 +1,19 @@
 # China Rock 报告：第29–32页整理版
 
+## 下载遇到错误时
+
+请在浏览器中打开本仓库页面；若为私有仓库，请先登录有访问权限的 GitHub 账号。
+
+1. 打开 [ChinaRock_download.zip](ChinaRock_download.zip) 文件页面。
+2. 点击右上角 **Download raw file**（向下箭头图标）下载到电脑。
+3. 解压 ZIP 后，用 PowerPoint 或 WPS 打开其中的 PPTX。不要直接用聊天界面的文件预览打开。
+
+若本地 PPTX 仍无法打开，可先查看解压得到的 PDF，并告知具体软件及报错。
+
+### 四页图片预览
+
+![第29–32页预览](ChinaRock_preview.png)
+
 - [下载完整报告 PPT（38页，约7 MB）](ChinaRock_full.pptx?raw=1)
 - [下载第29–32页 PPT（4页，约522 KB）](ChinaRock_slides_29-32.pptx?raw=1)
 - [查看四页 PDF（约218 KB）](ChinaRock_slides_29-32.pdf)
