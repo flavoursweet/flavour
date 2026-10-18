@@ -1,0 +1,42 @@
+{
+  "palace": [
+    "https://data.trippest.com/images/info/beijing/1920-26.jpg",
+    "https://www.trippest.com/beijing-travel-guide/jingshan-park/"
+  ],
+  "jingshan": [
+    "https://x0.ifengimg.com/res/2024/95B880317C9FAE97F2F3D57702EAAF32CE4449C9_size218_w1000_h666.jpg",
+    "https://news.ifeng.com/c/8dNScw0Cbuq"
+  ],
+  "summer": [
+    "https://ak-d.tripcdn.com/images/1mi2v12000s96mo6r7AAA_Q90.jpg?proc=source%2Ftrip",
+    "https://sg.trip.com/moments/detail/beijing-1-144748717/"
+  ],
+  "gong": [
+    "https://english.beijing.gov.cn/travellinginbeijing/museums/202603/W020260320495390567724.jpg",
+    "https://english.beijing.gov.cn/travellinginbeijing/museums/202603/t20260320_4562523.html"
+  ],
+  "sanlitun": [
+    "https://japanese.beijing.gov.cn/travellinginbeijing/shopping/shoppingcenters/202007/W020200727411547241296.jpg",
+    "https://japanese.beijing.gov.cn/travellinginbeijing/shopping/shoppingcenters/202007/t20200727_1961721.html"
+  ],
+  "beihai": [
+    "https://arabic.beijing.gov.cn/specials/240tour/line1/card1/202506/W020250613380895387724.jpg",
+    "https://arabic.beijing.gov.cn/specials/240tour/"
+  ],
+  "nanluo": [
+    "https://www.chinatoruktour.com/uploadfile/2018/0816/20180816040933877.jpg",
+    "https://www.chinatoruktour.com/index.php?a=show&c=index&catid=51&id=8&m=content"
+  ],
+  "shichahai": [
+    "https://r1.visitbeijing.com.cn/vbj-s/2012/1208/20121208113347823.jpg",
+    "https://s.visitbeijing.com.cn/attraction/101816"
+  ],
+  "yandai": [
+    "https://r1.visitbeijing.com.cn/vbj-s/2018/0816/20180816030035313.jpg",
+    "https://s.visitbeijing.com.cn/gallery/9196"
+  ],
+  "tiananmen": [
+    "https://fotografias.lasexta.com/clipping/cmsimages01/2026/01/14/46F2C973-DA1F-4AE1-BF5F-EFC22F26F853/plaza-tiananmen-china_69.jpg?crop=1280%2C720%2Cx0%2Cy67&format=jpg&height=720&optimize=low&width=1280",
+    "https://www.lasexta.com/viajestic/destinos/plaza-tiananmen-sabias-que-plazas-publicas-mas-grandes-mundo_20260114696757e4be7ae37724c416f4.html"
+  ]
+}
