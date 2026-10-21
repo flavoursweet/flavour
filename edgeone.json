@@ -1,3 +1,4 @@
 {
-  "outputDirectory": "beijing-trip"
+  "buildCommand": "node scripts/build-site.cjs",
+  "outputDirectory": ".site"
 }
